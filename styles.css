@@ -38,3 +38,25 @@ ul li:last-child {
     border-radius: 5px;
 }
 
+.container{
+    display: flex;
+
+    min-height: 100vh;
+    gap: 1rem;
+    padding: 4rem;
+}
+
+aside, section {
+    border: 1px solid black;
+}
+
+aside {
+    flex-basis: 25%;
+}
+
+section {
+    flex: 1;
+}
+
+
+
