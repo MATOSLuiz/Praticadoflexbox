@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+header {
+    padding: 25px;
+    background-color: #d00fe2a9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #00ff55;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: .8rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 14px;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+ul li:last-child {
+    background-color: #00f752a9;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
