@@ -38,7 +38,7 @@ ul li:last-child {
     border-radius: 5px;
 }
 
-/* .container{
+.container{
     display: flex;
 
     min-height: 100vh;
@@ -56,7 +56,7 @@ aside {
 
 section {
     flex: 1;
-} */
+}
 
 
 img {
@@ -71,3 +71,23 @@ img {
     justify-content: center;
 }
 
+main {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+button {
+    background-color: #330be4;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+    border-style: none;
+    width: 100px;
+    line-height: 0;
+    cursor: pointer;
+}
+
+i {
+    padding: 2px;
+}
